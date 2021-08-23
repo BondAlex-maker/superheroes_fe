@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 396px;
+    height: 504px;
+    border: 1px solid #949494;
+    border-radius: 2px;
+}
+
+.h1 {
+    width: 62px;
+    height: 23px;
+    font-family: Roboto, serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #54C1FF;
+    overflow-wrap: normal;
+    white-space: nowrap;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    position: relative;
+    width: 82px;
+    height: 12px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+
+.input{
+    width: 204px;
+    height: 29px;
+    border-radius: 1px;
+    border: 1px solid #949494;
+    margin-bottom: 10px;
+}
+
+.sign_up{
+    margin-top: 24px;
+    margin-bottom: 11px;
+    width: 204px;
+    height: 29px;
+    border-radius: 1px;
+    color: #FFF;
+    background-color: #54C1FF;
+    border: 1px solid #34B6FF;
+    cursor: pointer;
+}
+
+.sign_in{
+    width: 34px;
+    height: 12px;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11.72px;
+    color: #54C1FF;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
