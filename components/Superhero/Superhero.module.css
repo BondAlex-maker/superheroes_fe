@@ -1,0 +1,71 @@
+.superhero{
+    display: flex;
+    width: 722px;
+    min-height: 115px;
+    height: auto;
+    border: 1px solid #949494;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+}
+
+.superhero_photo_wrapper{
+    margin: 13px 14px auto 15px;
+    cursor: pointer;
+}
+
+.superhero_photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.superhero_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.superhero_info_user{
+    display: flex;
+    margin: 12px 0 9px;
+}
+
+.superhero_info_user_name{
+    width: auto;
+    margin-right: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.superhero_info_user_address{
+    color: #949494;
+    cursor: pointer;
+}
+
+.superhero_info_superhero_createdAt{
+    color: #949494;
+}
+
+.superhero_dropdown{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.superhero_likesAndComments{
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.superhero_comments{
+    margin-right: 15px;
+}
+
+.superhero_content{
+    width: 612px;
+    min-height: 42px;
+    height: auto;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
