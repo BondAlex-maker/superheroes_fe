@@ -1,0 +1,70 @@
+.profileForm_container{
+    position: relative;
+    width: 722px;
+    border: 1px solid #949494;
+    border-top: 0;
+}
+.profileForm_avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.profileForm_avatarContainer{
+    position: relative;
+}
+.profileForm_infoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.profileForm_info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.profileForm_info_username{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: Roboto, serif;
+}
+.profileForm_info_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Roboto, serif;
+    color: #949494;
+    margin-bottom: 14px;
+}
+.profileForm_info_location{
+    height: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: Roboto, serif;
+    margin-bottom: 14px;
+}
+.profileForm_info_followsContainer{
+    display: flex;
+    font-size: 10px;
+    line-height: 12px;
+}
+.profileForm_info_followers{
+    margin-right: 16px;
+}
+.profileForm_actionsContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.profileForm_btn{
+    display: flex;
+    width: 76px;
+    height: 24px;
+    border: 1px solid #54C1FF;
+    margin-right: 20px;
+    color: #54C1FF;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Roboto, serif;
+    justify-content: center;
+    align-items: center;
+}
